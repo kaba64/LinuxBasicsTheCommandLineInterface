@@ -1,0 +1,23 @@
+-std=c11 : means that the standard to be used to compile is the C version 2011.
+-Wall : means that we do not want to have all warnings.
+-fmax-errors=10 : means that we will have a maximum of 10 errors.
+-Wextra : means that we will have extra warnings.
+
+One role of the computer's operating system is to manage the memory of the computer.
+The term memory refers to the hardware in the computer that is involved in storing information for use in the computer.
+We distinguish between two different types of memory.
+RAM, short for Random Access Memory, is temporary memory that is easy and quick to access and, for example, used to execute programs.
+We also call this type of storage volatile memory.
+On the other hand, there is nonvolatile, or lasting memory for more permanent storage of data, for example,
+used to store files on the hard drive.
+
+For simplicity, we may represent the Random Access Memory as a sequence of binary memory cells, each populated with a 0 or a 1.
+We call each such cell 1 bit. By grouping several of these cells or bits together, we create what is called a word.
+A word is the fundamental unit of data that can be moved between the RAM and the computer processor.
+The size of a word is thus expressed in number of bits -- that is, number of memory cells -- or in bytes.
+
+Modern personal computers and modern processors more ordinarily tend to use 8, 16, 32,
+or even 64 bits to form one word, though other word sizes are possible.
+
+Well, this allows for the addressing of memory. In fact, an address is assigned to each word. We also call this a memory address.
+The computer address is a whole number that describes the location of the word in the computer memory.

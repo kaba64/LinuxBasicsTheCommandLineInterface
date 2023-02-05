@@ -1,0 +1,4 @@
+-std=c11 : means that the standard to be used to compile is the C version 2011.
+-Wall : means that we do not want to have all warnings.
+-fmax-errors=10 : means that we will have a maximum of 10 errors.
+-Wextra : means that we will have extra warnings.
